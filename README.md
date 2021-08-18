@@ -10,10 +10,7 @@ Password: 12345
 ```
 <br /> 
 <br />
-<br />
-***
-Click [here](https://laravel-ecommerce-eshop.herokuapp.com/admin) for Admin Panel <br />
-```
+<br />```
 Admin
 Username: admin
 Password: 12345
