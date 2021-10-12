@@ -10,7 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Sobre Nós | Meia Lua</title>
+    <title>Sobre Nós </title>
 
     <link rel="shortcut icon" href="{{asset('images/logo/favicon-32x32.png')}}" />
     <!-- Google font -->
