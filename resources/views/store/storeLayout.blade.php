@@ -131,7 +131,7 @@
                             <button class="dropbtn"><strong>Quem somos</strong>  <i class="fa fa-caret-down"></i></a></button>
                             <div class="dropdown-content" style="border-radius: 17%;">
                                 <a href="{{route('user.about-us')}}">Quem somos </a>
-                                <a href="{{route('user.loyality-card')}}">Loyality cards</a>
+                                <a href="{{route('user.loyality-card')}}">Mais</a>
                             </div>
                         </li>
                         
@@ -141,7 +141,7 @@
                         <li class="{{$c->id == $a ? 'active' : ''}}"><a href="{{route('user.search.cat',['id'=>$c->id])}}">{{$c->name}}</a></li>
                         
                         @endforeach
-                        <li class="{{$a == -1  ? 'active' : ''}}" style=""><a href="search"><i class="fa fa-"></i><strong>ver todos<strong></a></li>
+                        <li class="{{$a == -1  ? 'active' : ''}}" style=""><a href="search"><i class="fa fa-"></i><strong>Ver todos<strong></a></li>
                         <li><a href="{{route('user.home')}}"><i class="fa fa-home"style="margin-top:2px;"></i></a></li>
                         
                         @else @foreach($cat as $c)
