@@ -11,10 +11,6 @@ Admin
 Username: admin
 Password: 12345
 ```
-
-<br />
-
-
 ## Features ##
 - jQuery Validation
 - Delivery Management
