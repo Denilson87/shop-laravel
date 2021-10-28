@@ -82,13 +82,13 @@ color:#85adee;
                         <div class="header-search"style="margin-top:-10px;">
                             <form action="{{route('user.search')}}" method="get">
                                 <div class="custom_search_top" >
-                                    <input class="input" style="border-radius: 40px 0px 0px 40px;" name="n" placeholder="Pesquisar por marca">
+                                    <input class="input" style="border-radius: 40px 0px 0px 30px;" name="n" placeholder="Pesquisar por marca">
                                     <button  class="search-btn">Pesquisar</button>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    <!-- /SEARCH BAR -->
+      <!-- /SEARCH BAR -->
     </ol>
 </nav>
 
