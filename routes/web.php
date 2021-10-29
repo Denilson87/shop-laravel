@@ -17,7 +17,6 @@ Route::get('admin', 'loginController@adminIndex')->name('admin.login');
 Route::post('admin', 'loginController@adminPosted');
 
 Route::group(['middleware' => 'admin'], function(){
-
  
     Route::get("/admin_panel", 'admin_panel\dashboardController@index')->name('admin.dashboard');
 
