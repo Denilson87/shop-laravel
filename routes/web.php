@@ -105,6 +105,7 @@ Route::get('/loyality-cards','loyalityController@view2')->name('Registration.suc
 // Route::get('/Registration success', function () {
 //     return view ('store.success')->name('Registration.success');
 // });
+
 Route::post('/loyality-card-vip','loyalityController@store')->name('user.loyality-card-post');
 
 Route::get('/about-us', 'AboutController@index')->name('user.about-us');
