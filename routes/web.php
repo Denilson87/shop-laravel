@@ -41,6 +41,7 @@ Route::group(['middleware' => 'admin'], function(){
     Route::get('/admin_panel/Brands/delete/{id}', 'admin_panel\brandsController@delete')->name('admin.Brands.delete');
     Route::post('/admin_panel/Brands/delete/{id}', 'admin_panel\brandsController@destroy');
 
+    
     //Clients in base
     Route::get('admin_panel/our_clients',  'admin_panel\clientesController@index')->name('admin.Clients');
     Route::post('/admin_panel/our_clients', 'admin_panel\clientesController@posted');
