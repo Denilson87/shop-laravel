@@ -117,10 +117,10 @@
             <div class="col-md-12">
                 <div class="section-title">
                     <center>
-                        <h3 class="title">Confira os best sellers </h3>
+                        <h3 class="title">Confira os best sellers.</h3>
                     </center>
                     <center>
-                        <h6 class="texto">Tenha a conhecer algumas das nossas melhores marcas </h6>
+                        <h6 class="texto">Conheça algumas das nossas melhores marcas </h6>
                     </center>
                 </div>
                 <div class="inner-container" style="border-top:4px solid rgba(125, 219, 236, 0.9);;padding-top:20px; margin-left: 510px; width: 10%;"></div>
@@ -233,8 +233,7 @@
 </div>
 </head>
 
-<body>
-  
+<body>  
       
     
     @endsection
