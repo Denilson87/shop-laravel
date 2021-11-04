@@ -166,7 +166,6 @@
         <img class="bottom" src="{{asset('img/b2.jpg')}}" style="height:600px; width:100%" />
         <img class="top" src="{{asset('img/b2.jpg')}}" style="height:600px; width:100%" />
     </div><br><br><br><br>
-    <br><br> <br><br><br><br>
     <br><br> <br><br>
 
     <style>
